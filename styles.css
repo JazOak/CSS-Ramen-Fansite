@@ -2,15 +2,20 @@ body {
   background-image: url(images/Ramen-ichiranNY.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: 1600px 800px;
   position: relative;
   height: 600px;
 }
 
 img {
   position: absolute;
-margin: 100px 40px 100px 40px;
 padding: inherit;
+
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1.0;
 }
 
 h1 {
